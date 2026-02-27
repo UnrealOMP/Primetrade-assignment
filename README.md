@@ -13,6 +13,8 @@ A full-stack task management system with authentication, role-based access contr
 - PostgreSQL
 - JWT Authentication
 - Role-Based Access Control (USER / ADMIN)
+- React(vite)
+- Docker
 
 ### Frontend
 - React (Vite)
@@ -28,6 +30,25 @@ A full-stack task management system with authentication, role-based access contr
 Import the file located at:
 
 postman/collections/Primetrade.postman_collection.json
+
+---
+
+## 🏗️ Architecture Overview
+
+The application follows a modular layered architecture:
+
+- Controllers → Handle HTTP requests & responses
+- Services → Business logic layer
+- Middleware → Authentication, role-based authorization, error handling
+- Prisma ORM → Database abstraction (PostgreSQL)
+- JWT → Stateless authentication
+- Docker → Containerized backend, frontend & database
+
+Role-Based Access:
+- USER → Can manage only their own tasks
+- ADMIN → Can view and manage all users' tasks
+
+The project is structured to allow easy scalability and future module additions.
 
 ---
 
@@ -59,6 +80,18 @@ This can be done using:
 - Prisma Studio (development)
 - Direct database update
 - Future: Dedicated admin role management API
+---
+
+## 📈 Scalability Considerations
+
+To scale this application in production:
+
+- Stateless JWT authentication enables horizontal scaling.
+- PostgreSQL can be upgraded with read replicas.
+- Redis caching can be introduced for heavy read endpoints.
+- Docker setup allows deployment via CI/CD pipelines.
+- Services layer makes it easy to convert into microservices if required.
+
 ---
 
 ## 🐳 Docker Setup
