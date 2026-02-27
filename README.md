@@ -43,6 +43,16 @@ A full-stack task management system with authentication, role-based access contr
 - USER → Can manage own tasks only
 - ADMIN → Can view all users' tasks
 
+## Role Management
+
+Users are created with the default role `USER`.
+
+To assign admin privileges, update the user’s role in the database to `ADMIN`.
+
+This can be done using:
+- Prisma Studio (development)
+- Direct database update
+- Future: Dedicated admin role management API
 ---
 
 ## 🐳 Docker Setup
