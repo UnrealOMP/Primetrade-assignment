@@ -1,0 +1,167 @@
+/* Auth Pages */
+
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+}
+
+.auth-card {
+  background: #1e293b;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.auth-card input {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #0f172a;
+  color: white;
+  font-size: 14px;
+}
+
+.auth-card input:focus {
+  outline: 2px solid #3b82f6;
+}
+
+.auth-card button {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.auth-card button:hover {
+  background: #2563eb;
+}
+
+.dashboard {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 20px;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  align-self: flex-end;
+  background: #ef4444;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.task-form {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.task-form form {
+  display: flex;
+  gap: 10px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #1e293b;
+  color: white;
+}
+
+.task-form button {
+  background: #3b82f6;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
+
+.task-list {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task-card {
+  background: #1e293b;
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-actions button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.complete-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.admin-dashboard {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.admin-user-card {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.admin-task {
+  display: flex;
+  justify-content: space-between;
+  background: #111827;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.task-owner {
+  display: block;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #9ca3af;
+}
