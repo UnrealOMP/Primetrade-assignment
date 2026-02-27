@@ -82,6 +82,39 @@ This can be done using:
 - Future: Dedicated admin role management API
 ---
 
+---
+
+## 📸 Application Preview
+
+### 🔐 Login Page
+![Login Page](screenshots/Login%20page.png)
+
+### 📝 Register Page
+![Register Page](screenshots/Register%20page.png)
+
+### 📋 User Dashboard
+![User Dashboard](screenshots/User%20Dashboard.png)
+
+### 👑 Admin Dashboard
+![Admin Dashboard](screenshots/Admin%20dashboard.png)
+
+### 👑 Admin Dashboard (View 2)
+![Admin Dashboard 2](screenshots/admin%20dasjboard%202.png)
+
+### 🗄 Prisma Database Studio
+![Prisma Database Studio](screenshots/prisma%20database%20studio.png)
+
+### 🧩 Prisma Studio Container
+![Prisma Studio Container](screenshots/prisma%20studio%20container.png)
+
+### 🐳 Running Docker Containers
+![Running Containers](screenshots/Running%20containers.png)
+
+### 📜 Application Logs
+![Logs](screenshots/Logs.png)
+
+---
+
 ## 📈 Scalability Considerations
 
 To scale this application in production:
