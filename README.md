@@ -23,6 +23,12 @@ A full-stack task management system with authentication, role-based access contr
 - Docker
 - Docker Compose
 
+## Postman Collection
+
+Import the file located at:
+
+postman/collections/primetrade.postman_collection.json
+
 ---
 
 ## 📦 Features
